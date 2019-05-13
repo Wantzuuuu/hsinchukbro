@@ -1,0 +1,242 @@
+*{
+    box-sizing:border-box;
+}
+/* body{
+    background-color:rgba(238, 236, 236, 0.884);
+} */
+/* ==================================
+==              navbar             ==
+====================================*/
+ #navbars .navbar-logoPhoto{
+    width:40px;
+} 
+#navbar{
+    height:60px;
+   /* background:rgb(33, 53, 56); */
+   transition:all .5s ease;
+}
+/* ================================
+==     reviewsSection  button     ==
+===================================*/
+#reviewsSection .btn-group{
+   width:100%;
+   height:40px;
+}
+#reviewsSection .header-btn{
+    width:100%;
+    margin-top:0px;
+    border:1px solid rgb(173, 171, 171);
+}
+#reviewsSection .header-btn:hover{
+    background-color:rgba(70, 69, 69, 0.856);
+}
+/* ===================================
+==         reviwesSection           ==
+======================================*/
+#reviewsSection{
+    /* background-color:rgb(231, 227, 227); */
+    margin-top:62px;
+    box-shadow:1px 1px 10px rgba(0,0,0,0.3);
+    background-color:rgba(83, 81, 81, 0.219);
+}
+
+@media (max-width: 576px){
+    #reviewsSection .moviesReviews{
+        padding:0 0px
+    }
+}
+#reviewsSection .moviesPhoto{
+        height:450px;
+    }
+@media (max-width:576px){
+    #reviewsSection .moviesPhoto{
+        height:300px;
+    }
+}
+
+/* ================================
+==          section             ==
+==================================*/          
+/* .productText{
+    
+    margin-top:50px;
+} */
+ /* #sectionOne .btn{
+margin-top:10px;
+}  */
+
+#sectionOne{
+    padding:60px 0;
+}
+#sectionTwo{
+    padding:60px 0;
+}
+#sectionThree{
+    padding:60px 0;
+}
+/* programImg */
+.programImg{
+    width:100%;
+    height:550px; 
+   border:2px solid rgba(202, 199, 199, 0.3); 
+   border-radius:15px;
+   margin-left:100px;
+   opacity:0;
+   transition:all .8s ease;
+}
+@media(max-width:768px){
+    .programImg{
+        width:100%;
+        height:450px; 
+       border:2px solid rgba(202, 199, 199, 0.3); 
+       border-radius:15px;
+       margin-left:0px;
+       opacity:0;
+       transition:all .8s ease;
+    }
+}
+@media(max-width:576px){
+    .programImg{
+        height:450px;
+       border-radius:15px;
+       margin-left:0px;
+       opacity:0;
+       transition:all .8s ease;
+    }
+}
+.programTitle{
+    text-shadow:0 6px 0px rgba(0,0,0,0.5);
+    margin-left:-100px;
+    opacity:0;
+    transition:all .9s ease;
+} 
+/* 淺色背景的標題 */
+.programLightTitle{
+    text-shadow:0 6px 5px rgba(0,0,0,0.3);
+    margin-left:-100px;
+    opacity:0;
+    transition:all .8s ease;
+}
+hr.darkHr{
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgb(255, 255, 255), rgba(184, 182, 182, 0.61), rgba(99, 97, 97, 0.692));
+
+}
+hr.lightHr{
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0))
+
+}
+.programText{
+    margin-top:50px;
+    /* border-bottom:1px solid rgba(0,0,0,0.3); */
+}
+.footBtn{
+    margin-top:20px;
+  margin-bottom:20px;  
+} 
+.footBtn:hover{
+    background-color:white;
+    color:black;
+    transition:all .5s ease;
+}
+@media(max-width:576){
+    .footBtn{
+        position:absolute;
+        right:0;
+    }
+}
+/* sectionFour */
+
+.suitePlanImg{
+   width:50%;
+    border-radius:15px;
+    opacity:0;
+    transition:all 1.2s ease;
+}
+@media(max-width:576px){
+    .suitePlanImg{
+        width:100%;
+         border-radius:15px;
+         opacity:0;
+         transition:all 1.2s ease;
+     }
+}
+/* .suitePlanBox .btn{
+    position: absolute;
+    bottom:90px;
+    right:70px;
+}  */
+
+.suitePlanTitle{
+    padding:20px 20px;
+    text-shadow:0 3px 4px rgba(0,0,0,0.3);
+    color:rgb(71, 69, 69);
+}
+.suitTitleHr{
+    width:250px;
+    height:1px;
+    background-color:rgb(189, 185, 185);
+}
+.suitPlanHr{
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient( rgba(27, 27, 27, 0), rgba(12, 12, 12, 0.75))
+}
+/* suitePlanSlide */
+#suitePlanTextLeft1{
+    font-size:6px;
+    transition:all .8s ease;
+    opacity:0;
+}
+#suitePlanTextLeft1.suitePlanTextLeft{
+    font-size:25px;
+    opacity:1;
+}
+#suitePlanTextRight1{
+   font-size:6px;
+    transition:all .8s ease;
+    opacity:0;
+}
+#suitePlanTextRight1.suitePlanTextRight{
+    font-size:25px;
+    opacity:1;
+} 
+/* suitePlanSlide2 */
+#suitePlanTextLeft2{
+    font-size:6px;
+    transition:all .8s ease;
+    opacity:0;
+}
+#suitePlanTextLeft2.suitePlanTextLeft{
+    font-size:25px;
+    opacity:1;
+}
+#suitePlanTextRight2{
+   font-size:6px;
+    transition:all .8s ease;
+    opacity:0;
+}
+#suitePlanTextRight2.suitePlanTextRight{
+    font-size:25px;
+    opacity:1;
+} 
+ /* .suitePlanBox{
+    position: relative;
+} */
+
+/* #sectionFour .footBtn{
+    margin-left:160px;
+} */
+
+/* ==========================
+==        section end      ==
+=============================*/
+
+/* ========================
+==         footer      == 
+==========================*/
+
+
